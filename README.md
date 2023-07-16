@@ -4,7 +4,7 @@
 
  
 <p align="center">
-  <a href="https://scrolldownrule34image.yellowgreg.repl.co/">
+  <a href="https://scrollimage.yellowgreg.repl.co/">
     <img src="https://img.shields.io/badge/Live%20Demo-Scroll%20Rule34-blue?style=for-the-badge&logo=google-chrome&logoColor=white">
   </a>
 </p>
