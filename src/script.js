@@ -30,7 +30,7 @@ function getPosts() {
   if (isLoading) return;
 
   isLoading = true;
-  var randomPage = Math.floor(Math.random() * 45555) + 1; // Generate a random page number between 1 and 45555 (Note when the number is bigger it will load more slower)
+  var randomPage = Math.floor(Math.random() * 5000) + 1; // Generate a random page number between 1 and 5000 (Note when the number is bigger it will load more slower)
   var url = "https://api.rule34.xxx/index.php?page=dapi&s=post&q=index&limit=10&json=1&pid=" + randomPage;
   makeRequest(url, function(response) {
     var posts = JSON.parse(response);
